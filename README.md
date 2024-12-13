@@ -1,1 +1,1 @@
-# Seattle-Computing-Resourcing.github.io
+timothy wu is the goat
