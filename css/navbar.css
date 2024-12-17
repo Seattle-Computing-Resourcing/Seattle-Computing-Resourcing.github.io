@@ -4,16 +4,17 @@
 
 body {
     font-family: Calibri;
+    background: white;
 }
 
 nav {
-    background: black;
+    background: green;
     height: 75px;
     width: 100%;
 }
 
-label.logo {
-    color: white;
+label.name {
+    color: turquoise;
     font-size: 30px;
     line-height: 70px;
     padding: 0 200px;
@@ -32,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: turquoise;
     font-size: 15px;
     padding: 15px 15px;
     border-radius: 5px;
@@ -40,6 +41,13 @@ nav ul li a {
 }
 
 a.active, a:hover{
-    color: grey;
+    color: white;
     transition: .1s;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 95px;
 }
