@@ -4,28 +4,36 @@
 
 <html>
     <head>
-        <meta charset = "UTF-8">
-        
-        <title>Contact</title>
         <link rel="stylesheet" href="../css/navbar.css">
+
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <title>Seattle Computing Resourcing</title>
     </head>
 
     <body>
-        <div class="logo">
-            <img src="../img/logo.png">    
-        </div>
-
         <nav>
-            <label class = "name">Seattle Computing Resourcing</label>
+            <input type = "checkbox" id = "sidebar-active">
+            <label for = "sidebar-active" class = "open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+            
+            <label id = "overlay" for = "sidebar-active"></label>
 
-            <ul>
-                <li><a href="/">HOME</a></li>
-                <li><a href="/learning/">LEARNING</a></li>
-                <li><a href="/about/">ABOUT</a></li>
-                <li><a href="/contact/">CONTACT</a></li>
-            </ul>
+            <div class = "links-container">
+                <label for = "sidebar-active" class = "close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> 
+                </label>
+
+                <a href="/">HOME</a>
+                <a href="/learning/">LEARNING</a>
+                <a href="/about/">ABOUT</a>
+                <a href="/contact/">CONTACT</a>
+            </div>
         </nav> 
     </body>
 
-    <p>Contact</p>
+    <p>SCR</p>
 </html>
